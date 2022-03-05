@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/drawable-anydpi/error_image.xml" value="0.2155" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.201" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/drawable-v24/ic_baseline_close_24.xml" value="0.192" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.1135" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/drawable/button_bg.xml" value="0.192" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/drawable/explosion_fab_bg.xml" value="0.2155" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/drawable/ic__534129544.xml" value="0.2155" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/drawable/ic_baseline_add_location_24.xml" value="0.1765" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/drawable/ic_launcher_background.xml" value="0.201" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/drawable/image_bg.xml" value="0.1815" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/drawable/item_bg.xml" value="0.1815" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/drawable/lopopo.xml" value="0.201" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/layout/bottom_sheet.xml" value="0.2" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/layout/login_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/layout/mainfragment.xml" value="0.33" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/layout/place_item_layout.xml" value="0.25" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/layout/register_layout.xml" value="0.17101325352714836" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/layout/saving_place_layout.xml" value="0.25" />
+        <entry key="..\:/Users/LUCKY/AndroidStudioProjects/TravelPlanner/app/src/main/res/layout/serach_fragment.xml" value="0.17101325352714836" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

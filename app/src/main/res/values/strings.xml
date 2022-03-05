@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TravelPlanner</string>
+    <string name="MAPS_API">AIzaSyCO5a7FzBxcE0nOpVKfm-5dsGq606oH_to</string>
+    <string name="API_KEY">AIzaSyAVACg2NZKGyrQ2a-XgCP2TCxVC8myW-uA</string>
+    <string name="IMAGE_API">25400539-c432353c5eb9d9ef49a2ad132</string>
+</resources>
