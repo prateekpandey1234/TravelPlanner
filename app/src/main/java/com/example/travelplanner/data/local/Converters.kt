@@ -18,4 +18,5 @@ class Converters :Serializable{
         val listType: Type = object : TypeToken<ArrayList<String?>?>() {}.type
         return Gson().fromJson(value,listType)
     }
+
 }

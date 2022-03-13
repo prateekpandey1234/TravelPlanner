@@ -1,6 +1,7 @@
 package com.example.travelplanner.ui.fragment
 
 import android.annotation.SuppressLint
+import android.app.Dialog
 import android.location.Address
 import android.location.Geocoder
 import android.os.Bundle
@@ -8,6 +9,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.Window
 import android.view.animation.AccelerateDecelerateInterpolator
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
@@ -19,6 +21,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.FragmentNavigatorExtras
+import androidx.navigation.fragment.findNavController
 import com.example.travelplanner.R
 import com.example.travelplanner.databinding.MainfragmentBinding
 import com.example.travelplanner.ui.startAnimation
@@ -28,6 +31,7 @@ import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.material.bottomsheet.BottomSheetBehavior
+import kotlinx.android.synthetic.main.bottom_sheet.*
 import kotlinx.android.synthetic.main.mainfragment.*
 import kotlinx.android.synthetic.main.saving_place_layout.*
 
@@ -133,7 +137,10 @@ class MainFragment :Fragment(),OnMapReadyCallback {
         }
     }
     private fun setBottomSheetAndCallBackBottomSheetBehaviour() {
+        place_item_layout.setOnClickListener {
+            findNavController().navigate(MainFragmentDirections.actionMainFragmentToPlaceDeatilsFragment())
 
+        }
         mBottomSheetBehavior?.state = BottomSheetBehavior.STATE_HIDDEN
         //callback
         mBottomSheetBehavior?.addBottomSheetCallback(object :

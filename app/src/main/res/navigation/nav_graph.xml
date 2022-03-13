@@ -28,6 +28,9 @@
         android:id="@+id/mainFragment"
         android:name="com.example.travelplanner.ui.fragment.MainFragment"
         android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_placeDeatilsFragment"
+            app:destination="@id/placeDeatilsFragment" />
     </fragment>
     <fragment
         android:id="@+id/registerFragement"
@@ -40,6 +43,14 @@
             app:exitAnim="@anim/fade_out"
             app:popEnterAnim="@anim/fade_in"
             app:popExitAnim="@anim/slide_out_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/placeDeatilsFragment"
+        android:name="com.example.travelplanner.ui.fragment.PlaceDeatilsFragment"
+        android:label="PlaceDeatilsFragment" >
+        <action
+            android:id="@+id/action_placeDeatilsFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
     </fragment>
 
 </navigation>
